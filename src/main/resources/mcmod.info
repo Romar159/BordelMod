@@ -1,0 +1,16 @@
+[
+{
+  "modid": "bordelmod",
+  "name": "Bordel Mod",
+  "description": "Mod ajoutant diverses choses et notamment en rapport avec des délires entre DraxyDow et Romar1",
+  "version": "0.1.1",
+  "mcversion": "${mcversion}",
+  "url": "https://github.com/Romar159/BordelMod",
+  "updateUrl": "",
+  "authorList": ["Romar1"],
+  "credits": "Mod developpé par Romar1 ; Textures par DraxyDow",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
