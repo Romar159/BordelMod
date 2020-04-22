@@ -17,13 +17,13 @@ public class RenderBordelMod extends RenderLiving {
 		super(p_i1262_1_, p_i1262_2_);
 	}
 
-	protected ResourceLocation getEntiyTexture(EntityLiving living)
+	public ResourceLocation getEntiyTexture(EntityLiving living)
     {
         return this.getEntityTexture((EntityBordelMod) living);
     }
 
     @Override
-    protected ResourceLocation getEntityTexture(Entity p_110775_1_)
+    public ResourceLocation getEntityTexture(Entity p_110775_1_)
     {
         return texture;
     }   

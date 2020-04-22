@@ -5,3 +5,14 @@ tile.bordel_block.name=Bordel block
 tile.lajoie_block.name=LaJoie block
 tile.gigasatanas.name=Giga satanas block
 tile.belletete.name=Belle tête.png block
+
+tile.ore_tesseract.tesseract_void.name=Ore Tesseract
+tile.ore_tesseract.tesseract_coal.name=Ore Tesseract Coal Injected
+tile.ore_tesseract.tesseract_iron.name=Ore Tesseract Iron Injected
+tile.ore_tesseract.tesseract_redstone.name=Ore Tesseract Redstone Injected
+tile.ore_tesseract.tesseract_lapis.name=Ore Tesseract Lapis Injected
+tile.ore_tesseract.tesseract_gold.name=Ore Tesseract Gold Injected
+tile.ore_tesseract.tesseract_diamond.name=Ore Tesseract Diamond Injected
+tile.ore_tesseract.tesseract_emerald.name=Ore Tesseract Emerald Injected
+tile.ore_tesseract.tesseract_bordel_ingot.name=Ore Tesseract Bordel Ingot Injected
+tile.ore_tesseract.giga_satanas_ingot.name=Ore Tesseract Giga Satanas Ingot Injected

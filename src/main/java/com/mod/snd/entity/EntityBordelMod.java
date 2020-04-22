@@ -1,10 +1,15 @@
 package com.mod.snd.entity;
 
+import java.util.Random;
+
+import com.mod.snd.init.ItemMod;
+
 import net.minecraft.entity.SharedMonsterAttributes;
 import net.minecraft.entity.ai.*;
 import net.minecraft.entity.monster.EntityMob;
 import net.minecraft.entity.passive.EntityVillager;
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.item.Item;
 import net.minecraft.world.World;
 
 public class EntityBordelMod extends EntityMob {
@@ -32,5 +37,20 @@ public class EntityBordelMod extends EntityMob {
         this.getEntityAttribute(SharedMonsterAttributes.attackDamage).setBaseValue(6.0D);
         this.getEntityAttribute(SharedMonsterAttributes.maxHealth).setBaseValue(35.0D);
     }
-
+	
+	public void dropFewItems(boolean b, int looting) {
+		Random random = new Random();
+		Random random2 = new Random();
+		
+		int rand2 = random2.nextInt(3) + 1;
+		int rand = 0;
+		
+		if (rand2 <= 2) {
+			rand = random.nextInt(2) + 1;
+		} else if (rand2 == 3) {
+			rand = 3;
+		}
+		
+		this.dropItem(ItemMod.some_chveux_verts, rand);
+	}
 }

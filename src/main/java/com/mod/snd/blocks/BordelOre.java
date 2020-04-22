@@ -17,10 +17,6 @@ public class BordelOre extends Block{
 		this.setHarvestLevel("pickaxe", level);
 	}
 	
-	public boolean isOpaqueCube() {
-		return false;
-	}
-	
 	@SideOnly(Side.CLIENT)
 	public float getAmbientOcclusionLightValue() {
 		return 1.0F;
